@@ -34,16 +34,27 @@
     </nav>
     <!-- mainpart-->
     <setion class="home" id="home">
-        <div class="max-width">
+        <div class="max-width" style="max-width: 50%;">
             <div class="home-content">
                 <div class="text1">Hi, Its </div>
                 <div class="text2">Debashish Jena,</div>
                 <div class="text3">And I'm a <span class="typing"></span></div>
             </div>
+
             <div class="button">
                 <button>Hire Me</button>
             </div>
         </div>
+        <div id="main">
+
+            <div id="page" class="space_img"
+                style=" max-width: 50%; position: relative;">
+                <img src="./img/space.png" alt="" style="margin-top: 150px; display: flex;align-items: center; justify-content: center; width: 50vw;height: 70vh; position: absolute; align-items: center;
+                transition: all cubic-bezier(0.075, 0.82, 0.165, 1);">
+
+            </div>
+        </div>
+
     </setion>
     <!-- About section start -->
     <section class="about" id="about">
@@ -108,7 +119,7 @@
                         <div class="num">70%</div>
                     </div>
                     <div class="box">
-                        <div class="topic">Php</div>
+                        <div class="topic">React.js</div>
                         <div class="num">60%</div>
                     </div>
                 </div>
@@ -197,25 +208,27 @@
                 <div class="right">
                     <div class="text">Message me</div>
                     <div id="error_message"></div>
-                    <form id="myform" action="/" method="GET">
+                    <form id="myform" action="https://formspree.io/f/xqkowjlb"
+                    method="POST" >
                         <div class="fields">
                             <div class="field name">
                                 <label for="name"></label>
-                                <input type="text" id="name" name="name" placeholder="Name" >
+                                <input type="text" id="name" name="name" placeholder="Name">
                                 <!-- <span id="name-error">name is required</span> -->
                             </div>
                             <div class="field email">
                                 <label for="email"></label>
-                                <input type="email" id="email" name="email" placeholder="Email" >
+                                <input type="email" id="email" name="email" placeholder="Email">
                                 <!-- <span id="email-error">email is required</span> -->
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" >
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
                             <!-- <span id="subject-error">subject is required</span> -->
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" id="textarea" name="textarea" placeholder="Describe project" ></textarea>
+                            <textarea cols="30" rows="10" id="textarea" name="message"
+                                placeholder="Message Us"></textarea>
                             <!-- <span id="message-error">message is required</span> -->
                         </div>
                         <div class="button">
@@ -263,7 +276,7 @@
                 </div>
             </div>
         </div>
-        <span>Created By <a href="#"> DebashishJena </a> | &#169 2022 All right reserved.</span>
+        <span>Created By <a href="#">  DebashishJena  </a> | &#169 2023 All right reserved.</span>
     </footer>
 
     <script src="script.js"></script>
