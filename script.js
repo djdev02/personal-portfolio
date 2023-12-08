@@ -44,12 +44,12 @@ myform.addEventListener('submit',(e) =>{
   if (subject.value.length <=6){
    messages.push('subject must be longer than 6 characters')
   }
-  if (subject.value.length >=40){
-   messages.push('subject must be less than 40 characters')
+  if (subject.value.length >=110){
+   messages.push('subject must be less than 100 characters')
   }
  
-  if (textArea.value.length <=50){
-   messages.push('Description must be longer than 50 characters')
+  if (textArea.value.length <=10){
+   messages.push('Description must be longer than 10 characters')
   }
 
   
